@@ -1,0 +1,7 @@
+print('Hi User')
+print('What is your Name?')
+myName = input()
+print('It is nice to meet you,' + myName)
+print('How old are you?')
+myAge = input()
+print('You will turn 100 years old in ' + str(100 - (int(myAge))))
